@@ -19,3 +19,37 @@
 .about-btn:active {
   transform: translateY(0);
 }
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 18px 0;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  z-index: 1000;
+}
+
+.navbar a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: color 0.2s ease;
+}
+
+.navbar a:hover {
+  color: #00d9ff;
+}
+
+.navbar a.active {
+  color: #00d9ff;
+  border-bottom: 2px solid #00d9ff;
+  padding-bottom: 4px;
+}
