@@ -110,7 +110,7 @@ h1 {
   color: #00d9ff;
 }
 p {
-  font-size: clamp(0.8em, 5vw, 2em);
+  font-size: clamp(1em, 3vw, 1.8em);
 }
 a:not(.about-btn) {
   color: #00d9ff;
@@ -140,7 +140,7 @@ body.about-page {
 }
 
 .content p {
-  font-size: clamp(3em, 2.5vw, 2em);
+  font-size: clamp(1.8em, 2.5vw, 2em);
   line-height: 1.6;
 }
 
