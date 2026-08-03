@@ -123,8 +123,10 @@ a:not(.about-btn) {
   padding: 40px 30px;
   border-radius: 16px;
   max-width: 800px;
+  width: calc(100% - 40px);
   margin: 40px auto;
   text-align: center;
+  box-sizing: border-box;
 }
 body.about-page {
   background-image: url('IMG_20260718_162402.jpg');
