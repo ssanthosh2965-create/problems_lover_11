@@ -110,7 +110,7 @@ h1 {
   color: #00d9ff;
 }
 p {
-  font-size: clamp(1.2em, 4vw, 3em);
+  font-size: clamp(1.5em, 5vw, 3.5em);
 }
 a:not(.about-btn) {
   color: #00d9ff;
