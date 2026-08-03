@@ -132,4 +132,6 @@ body.about-page {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  justify-content: flex-start;
+  padding-top: 100px;
 }
