@@ -116,3 +116,14 @@ a:not(.about-btn) {
   color: #00d9ff;
   font-size: clamp(1.2em, 4vw, 3em);
 }
+.content {
+  background-image: url('YOUR_ABOUT_PAGE_IMAGE.jpg');
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
+  padding: 40px 20px;
+  border-radius: 15px;
+  max-width: 700px;
+  margin: 100px auto 40px;
+}
