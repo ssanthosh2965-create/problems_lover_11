@@ -133,7 +133,7 @@ body.about-page {
   background-repeat: no-repeat;
   background-attachment: fixed;
   justify-content: flex-start;
-  padding-top: 100px;
+  padding-top: 150px;
 }
 .content h1 {
   font-size: clamp(2.3em, 4vw, 3.2em);
