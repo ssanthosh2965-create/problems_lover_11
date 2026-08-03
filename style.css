@@ -118,7 +118,7 @@ a:not(.about-btn) {
 }
 .content {
   background-color: rgba(0, 0, 0, 0.6);
-  padding: 60px 40px;
+  padding: 10px 20px;
   border-radius: 16px;
   max-width: 900px;
   width: 85%;
