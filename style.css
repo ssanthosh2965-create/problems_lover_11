@@ -117,7 +117,7 @@ a:not(.about-btn) {
   font-size: clamp(1.2em, 4vw, 3em);
 }
 .content {
-  background-image: url('YOUR_ABOUT_PAGE_IMAGE.jpg');
+  background-image: url('IMG_20260718_162402.jpg');
   background-size: cover;
   background-position: center;
   background-color: rgba(0, 0, 0, 0.5);
@@ -126,4 +126,5 @@ a:not(.about-btn) {
   border-radius: 15px;
   max-width: 700px;
   margin: 100px auto 40px;
+  text-align: center;
 }
