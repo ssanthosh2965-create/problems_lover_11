@@ -117,14 +117,19 @@ a:not(.about-btn) {
   font-size: clamp(1.2em, 4vw, 3em);
 }
 .content {
-  background-image: url('IMG_20260718_162402.jpg');
   background-size: cover;
   background-position: center;
   background-color: rgba(0, 0, 0, 0.5);
-  background-blend-mode: darken;
   padding: 40px 20px;
   border-radius: 15px;
   max-width: 700px;
   margin: 100px auto 40px;
   text-align: center;
+}
+body.about-page {
+  background-image: url('IMG_20260718_162402.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
