@@ -110,7 +110,7 @@ h1 {
   color: #00d9ff;
 }
 p {
-  font-size: clamp(1em, 3vw, 2em);
+  font-size: clamp(0.8em, 5vw, 2em);
 }
 a:not(.about-btn) {
   color: #00d9ff;
@@ -123,7 +123,7 @@ a:not(.about-btn) {
   max-width: 900px;
   width: 85%;
   margin: 40px auto;
-  text-align: centre;
+  text-align: center;
   box-sizing: border-box;
 }
 body.about-page {
